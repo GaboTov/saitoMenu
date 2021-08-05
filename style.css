@@ -20,7 +20,7 @@ body{
 img{
     width: inherit;
     height: inherit;
-    background-image: url(https://i.imgur.com/pvuHVCA.png);
+    
 }
 .logo{   
     padding: 0px;
@@ -44,13 +44,46 @@ img{
 }
 .img{
     position: relative;
-    background-color: green;
+    
+    
     width: 85vw;
     height: 35vh;
     margin: 5% 0% 3% 7%;
     
     border-radius: 2%;
 
+}
+#rollPollo{
+    background-image: url("rollPollo0.jpg");
+    background-size:100%;
+}
+#rollAguacate{
+    background-image: url("aguacate0.jpg");
+    background-size:100%;
+}
+#rollCalifornia{
+    background-image: url("california0.jpg");
+    background-size:100%;
+}
+#gyozas{
+    background-image: url("gyozas.jpg");
+    background-size:100%;
+}
+#rebozado{
+    background-image: url("rebozado0.jpg");
+    background-size:100%;
+}
+#pincho{
+    background-image: url("pincho0.jpg");
+    background-size:100%;
+}
+#rollSurimi{
+    background-image: url("rollSurimi0.jpg");
+    background-size:100%;
+}
+#miniSalmon{
+    background-image: url("miniSalmon0.jpg");
+    background-size:100%;
 }
 .containerIngredients{
     margin-left: 13%;
@@ -101,7 +134,7 @@ button{
     }
     .img{
         width: 50vw;
-    height: 42vw;
+    height: 37vw;
     margin-left: 4%;
     }
     
