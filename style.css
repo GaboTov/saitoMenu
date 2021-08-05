@@ -1,0 +1,119 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    height: 100vh;
+    flex-direction: column;
+    font-size: 16px;
+  }
+.backImg{
+    
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+}
+img{
+    width: inherit;
+    height: inherit;
+    background-image: url(https://i.imgur.com/pvuHVCA.png);
+}
+.logo{   
+    padding: 0px;
+    width: 140px;
+    height: 140px;
+    margin: 4% 0% 5% 0%;
+    
+    position: relative;
+    left: 31vw;
+    border-radius: 2%;
+    
+
+}
+.menuContainer{
+    flex: auto;
+    position: relative;
+    height: auto;
+    margin: 0;
+    width: 100%;
+    background-color: rgba(43, 42, 42, 0.116);
+}
+.img{
+    position: relative;
+    background-color: green;
+    width: 85vw;
+    height: 35vh;
+    margin: 5% 0% 3% 7%;
+    
+    border-radius: 2%;
+
+}
+.containerIngredients{
+    margin-left: 13%;
+}
+.ingredients{
+    margin:4% 0% 8% 4%;
+    width: 50%;
+}
+.buttons{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+button{
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    border-radius: 2%;
+    
+}
+
+.h1{
+    margin: 4vh auto 2vh 47vw;
+    width: auto;
+}
+.nxtButton{
+    position: absolute;
+    right: 0;
+}
+.footer{
+   
+    margin-top: auto;
+    background: grey;
+}
+
+@media (min-width:600px) {
+    .logo{
+        left:41%;
+        width: 22vw;
+        height: 22vw;
+    }
+    .plato{
+        display: flex;
+        flex-direction: row;
+    }
+    .img{
+        width: 50vw;
+    height: 42vw;
+    margin-left: 4%;
+    }
+    
+    
+    .containerIngredients{
+        margin-top: 9%;
+    }
+    .ingredients{
+        margin: 4% auto 10% 30%;
+        width: auto;
+    }
+    
+    
+    
+}
