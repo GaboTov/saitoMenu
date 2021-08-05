@@ -86,11 +86,12 @@ img{
     background-size:100%;
 }
 .containerIngredients{
+    width: 50%;
     margin-left: 13%;
 }
 .ingredients{
-    margin:4% 0% 8% 4%;
-    width: 50%;
+    margin:4% 0% 10% 10%;
+    width: 100%;
 }
 .buttons{
     position: absolute;
@@ -133,7 +134,7 @@ button{
         flex-direction: row;
     }
     .img{
-        width: 50vw;
+    width: 80%;
     height: 37vw;
     margin-left: 4%;
     }
@@ -142,10 +143,7 @@ button{
     .containerIngredients{
         margin-top: 9%;
     }
-    .ingredients{
-        margin: 4% auto 10% 30%;
-        width: auto;
-    }
+    
     
     
     
