@@ -8,12 +8,16 @@ body{
     display:flex;
     height: 100vh;
     flex-direction: column;
-    font-size: 16px;
+    font-size: 17px;
   }
 .backImg{
     
     height: 100%;
     width: 100%;
+    background-image: url("fondo0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     z-index: -1;
     position: fixed;
 }
@@ -40,7 +44,10 @@ img{
     height: auto;
     margin: 0;
     width: 100%;
-    background-color: rgba(43, 42, 42, 0.116);
+    background-color: rgba(43, 42, 42, 0.7);
+}
+.plato{
+    margin-bottom: 15%;
 }
 .img{
     position: relative;
@@ -49,49 +56,55 @@ img{
     width: 85vw;
     height: 35vh;
     margin: 5% 0% 3% 7%;
-    
+    background-size: cover;
     border-radius: 2%;
 
 }
 #rollPollo{
     background-image: url("rollPollo0.jpg");
-    background-size:100%;
+    /* background-size:cover; */
 }
 #rollAguacate{
     background-image: url("aguacate0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #rollCalifornia{
     background-image: url("california0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #gyozas{
     background-image: url("gyozas.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #rebozado{
     background-image: url("rebozado0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #pincho{
     background-image: url("pincho0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #rollSurimi{
     background-image: url("rollSurimi0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 #miniSalmon{
     background-image: url("miniSalmon0.jpg");
-    background-size:100%;
+    background-size:cover;
 }
 .containerIngredients{
     width: 50%;
     margin-left: 13%;
 }
+h1{
+    color: #F7F7A3;
+}
 .ingredients{
     margin:4% 0% 10% 10%;
-    width: 100%;
+    width: 89%;
+}
+li{
+    color:#C2C2BA;
 }
 .buttons{
     position: absolute;
@@ -124,6 +137,9 @@ button{
 }
 
 @media (min-width:600px) {
+    body{
+        font-size: 24px;
+    }
     .logo{
         left:41%;
         width: 22vw;
