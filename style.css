@@ -10,11 +10,33 @@ body{
     flex-direction: column;
     font-size: 17px;
   }
-.backImg{
+.backImg0{
     
     height: 100%;
     width: 100%;
     background-image: url("fondo0.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+}
+.backImg1{
+    
+    height: 100%;
+    width: 100%;
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    position: fixed;
+}
+.backImg2{
+    
+    height: 100%;
+    width: 100%;
+    background-image: url("fondo2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -55,46 +77,83 @@ img{
     
     width: 85vw;
     height: 35vh;
+    max-width: 640px;
+    max-height: 480px;
     margin: 5% 0% 3% 7%;
     background-size: cover;
     border-radius: 2%;
 
 }
-#rollPollo{
+#rollPollo0{
     background-image: url("rollPollo0.jpg");
-    /* background-size:cover; */
+    
 }
-#rollAguacate{
-    background-image: url("aguacate0.jpg");
-    background-size:cover;
+#rollPollo1{
+    background-image: url("rollPollo1.jpg");
+    background-size: cover;
+    
 }
-#rollCalifornia{
-    background-image: url("california0.jpg");
-    background-size:cover;
+
+#rollAguacate0{
+    background-image: url("aguacate0.jfif");
+    
+}
+#rollAguacate1{
+    background-image: url("aguacate1.jfif");
+    
+}
+#rollAguacate2{
+    background-image: url("aguacate2.jpg");
+    
+}
+#california0{
+    background-image: url("california0.jfif");
+    
+}
+#california1{
+    background-image: url("california1.jfif");
+    
 }
 #gyozas{
     background-image: url("gyozas.jpg");
-    background-size:cover;
+    
 }
-#rebozado{
+#rebozado0{
     background-image: url("rebozado0.jpg");
-    background-size:cover;
+   
 }
-#pincho{
+#rebozado1{
+    background-image: url("rebozado1.jpg");
+   
+}
+#pincho0{
     background-image: url("pincho0.jpg");
-    background-size:cover;
+    
 }
-#rollSurimi{
+#pincho1{
+    background-image: url("pincho1.jpg");
+    
+}
+#rollSurimi0{
     background-image: url("rollSurimi0.jpg");
-    background-size:cover;
+    
 }
-#miniSalmon{
+#rollSurimi1{
+    background-image: url("rollSurimi1.jpg");
+    
+}
+#miniSalmon0{
     background-image: url("miniSalmon0.jpg");
-    background-size:cover;
+    
+}
+#miniSalmon1{
+    background-image: url("miniSalmon1.jpg");
+    
 }
 .containerIngredients{
     width: 50%;
     margin-left: 13%;
+    justify-content: center;
 }
 h1{
     color: #F7F7A3;
@@ -123,7 +182,7 @@ button{
 }
 
 .h1{
-    margin: 4vh auto 2vh 47vw;
+    margin: 4vh auto 2vh 42vw;
     width: auto;
 }
 .nxtButton{
